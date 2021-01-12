@@ -17,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
     private TextView mTextView_Counter;
     private int viewCounter=0;
 
+    private String mStr_ChangedTestForGitHub_VersionControl;
+
     /**
      *
      * FirebaseAnalytics 관련
@@ -32,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         mGA_EventTracker = GA_EventTracker.getInstance(getApplicationContext());
 
         mTextView_Counter = (TextView) findViewById(R.id.ma_counter);
+
     }
 
     @Override
@@ -41,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         viewCounter++;
         mTextView_Counter.setText(String.valueOf(viewCounter));
 
-
+        mStr_ChangedTestForGitHub_VersionControl = "A1";
     }
 
     public void clickBtn(View view) {
