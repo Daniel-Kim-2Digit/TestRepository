@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         viewCounter++;
         mTextView_Counter.setText(String.valueOf(viewCounter));
 
-        mStr_ChangedTestForGitHub_VersionControl = "C1";
+        mStr_ChangedTestForGitHub_VersionControl = "D1";
     }
 
     public void clickBtn(View view) {
