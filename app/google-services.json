@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "587413080231",
+    "project_id": "testanalyticsactivityswitch",
+    "storage_bucket": "testanalyticsactivityswitch.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587413080231:android:1fd4a0e7997c5e6757f382",
+        "android_client_info": {
+          "package_name": "com.example.test_activityswitch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587413080231-d33emf8mcgfvkjc6cjlsbicbcrvg0615.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB5cuh2-paC3imFz81P-weSflroG3Cmns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587413080231-d33emf8mcgfvkjc6cjlsbicbcrvg0615.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
