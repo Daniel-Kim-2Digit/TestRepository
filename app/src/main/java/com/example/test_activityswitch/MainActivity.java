@@ -38,12 +38,14 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        int b=1;
-        Log.i("Branch_B", String.format("ver1. b=%d", b));
+        int b=2;
+        String versionNameB = String.format("[Branch_C] versionName=v%02d",b);
+        Log.i("Branch_C", versionNameB);
 
 
         int c=1;
-        Log.i("Branch_C", String.format("ver1. c=%d", c));
+        String versionNameC = String.format("[Branch_C] versionName=v%02d",c);
+        Log.i("Branch_C", versionNameC);
 
     }
 
