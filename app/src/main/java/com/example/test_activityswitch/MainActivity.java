@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
@@ -35,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
 
         mTextView_Counter = (TextView) findViewById(R.id.ma_counter);
 
+        int a=1;
+        Log.i("Branch_master", String.format("ver1. a=%d", a));
     }
 
     @Override
