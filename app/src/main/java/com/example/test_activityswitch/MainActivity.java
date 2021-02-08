@@ -40,6 +40,11 @@ public class MainActivity extends AppCompatActivity {
 
         int b=1;
         Log.i("Branch_B", String.format("ver1. b=%d", b));
+
+
+        int c=1;
+        Log.i("Branch_C", String.format("ver1. c=%d", c));
+
     }
 
     @Override
