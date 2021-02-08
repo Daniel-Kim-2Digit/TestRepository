@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
@@ -34,6 +35,11 @@ public class MainActivity extends AppCompatActivity {
         mGA_EventTracker = GA_EventTracker.getInstance(getApplicationContext());
 
         mTextView_Counter = (TextView) findViewById(R.id.ma_counter);
+
+
+
+        int c=1;
+        Log.i("Branch_C", String.format("ver1. c=%d", c));
 
     }
 
